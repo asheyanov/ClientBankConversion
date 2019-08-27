@@ -1,0 +1,150 @@
+﻿{
+  "fields": [
+    {
+      "FieldName": "DATA_VYP",
+      "FieldType": "Date(8)",
+      "Description": "Дата формирования выписки"
+    },
+    {
+      "FieldName": "MFO",
+      "FieldType": "Character(15)",
+      "Description": "МФО банка"
+    },
+    {
+      "FieldName": "AC",
+      "FieldType": "Character(35)",
+      "Description": "Счёт"
+    },
+    {
+      "FieldName": "OKPO",
+      "FieldType": "Character(15)",
+      "Description": "ОКПО"
+    },
+    {
+      "FieldName": "NAME",
+      "FieldType": "Character(80)",
+      "Description": "Название отправителя"
+    },
+    {
+      "FieldName": "ND",
+      "FieldType": "Character(15)",
+      "Description": "Номер документа"
+    },
+    {
+      "FieldName": "DATA_D",
+      "FieldType": "Character(10)",
+      "Description": "Дата проведения документа"
+    },
+    {
+      "FieldName": "DK",
+      "FieldType": "Character(2)",
+      "Description": "2 = Дебет, 1 = Кредит, «Пустая строка» = по счёту не было движений в интервале построения выписки"
+    },
+    {
+      "FieldName": "MFO_KOR",
+      "FieldType": "Character(15)",
+      "Description": "МФО корреспондента"
+    },
+    {
+      "FieldName": "AC_KOR",
+      "FieldType": "Character(35)",
+      "Description": "Счёт корреспондента"
+    },
+    {
+      "FieldName": "OKPO_KOR",
+      "FieldType": "Character(15)",
+      "Description": "ОКПО корреспондента"
+    },
+    {
+      "FieldName": "NAME_KOR",
+      "FieldType": "Character(80)",
+      "Description": "Название корреспондента"
+    },
+    {
+      "FieldName": "CUR_TAG",
+      "FieldType": "Character(3)",
+      "Description": "Валюта документа (напр. UAH)"
+    },
+    {
+      "FieldName": "CUR_CODE",
+      "FieldType": "Character(3)",
+      "Description": "Валюта документа (напр. 980)"
+    },
+    {
+      "FieldName": "CUR_RATE",
+      "FieldType": "Character(19, 2)",
+      "Description": "Курс валюты счёта на дату выписки"
+    },
+    {
+      "FieldName": "AC_CUR_TAG",
+      "FieldType": "Character(3)",
+      "Description": "Валюта счёта (напр. UAH)"
+    },
+    {
+      "FieldName": "AccountCurrencyCode",
+      "FieldType": "Character(4)",
+      "Description": "Валюта счёта (напр. 980)"
+    },
+    {
+      "FieldName": "SUM_PD_NOM",
+      "FieldType": "Numeric(19,2)",
+      "Description": "Сумма платежа в валюте счёта"
+    },
+    {
+      "FieldName": "SUM_PD_EQ",
+      "FieldType": "Numeric(19,2)",
+      "Description": "Сумма платежа в эквиваленте"
+    },
+    {
+      "FieldName": "PURPOSE",
+      "FieldType": "Character(240)",
+      "Description": "Назначение"
+    },
+    {
+      "FieldName": "IN_RST_NO",
+      "FieldType": "Numeric(19,2)",
+      "Description": "Входящий остаток по счёту в валюте счёта"
+    },
+    {
+      "FieldName": "IN_RST_EQ",
+      "FieldType": "Numeric(19,2)",
+      "Description": "Входящий остаток по счёту в эквиваленте"
+    },
+    {
+      "FieldName": "OUT_RST_NO",
+      "FieldType": "Numeric(19,2)",
+      "Description": "Исходящий остаток по счёту в валюте счёта"
+    },
+    {
+      "FieldName": "OUT_RST_EQ",
+      "FieldType": "Numeric(19,2)",
+      "Description": "Исходящий остаток по счёту в эквиваленте"
+    },
+    {
+      "FieldName": "DB_SUM_NOM",
+      "FieldType": "Numeric(19,2)",
+      "Description": "Сумма дебета в валюте счёта"
+    },
+    {
+      "FieldName": "CR_SUM_NOM",
+      "FieldType": "Numeric(19,2)",
+      "Description": "Сумма кредита в номинале счёта"
+    },
+    {
+      "FieldName": "DB_SUM_EQ",
+      "FieldType": "Numeric(19,2)",
+      "Description": "Сумма дебета в эквиваленте счёта"
+    },
+    {
+      "FieldName": "CR_SUM_EQ",
+      "FieldType": "Numeric(19,2)",
+      "Description": "Сумма кредита в эквиваленте счёта"
+    },
+    {
+      "FieldName": "DAT_OST_OB",
+      "FieldType": "Date(8)",
+      "Description": "Дата последнего движения по счёту"
+    }
+  ]
+
+}
